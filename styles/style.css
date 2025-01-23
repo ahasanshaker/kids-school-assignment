@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Shared Styles */
+.displayFlex {
+    display: flex;
+}
+
+.navFont {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* Header Styles */
+header {
+    margin: 10px 100px;
+}
+
+
+/* Nav Styles */
+nav {
+    justify-content: space-between;
+    /* padding: 0px 20px; */
+
+    gap: 10px;
+    
+
+}
+
+.navTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: auto 0px;
+
+}
+
+.navLInk {
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+
+
+}
+
+.orange {
+    color: #FEA301;
+}
+
+.skyBlue {
+    color: #01ACFD;
+}
+
+.aqua {
+    color: #05D4DF;
+}
+
+.purple {
+    color: #5D58EF;
+}
+
+.navBtn {
+    border-radius: 12px;
+
+    padding: 5px 50px;
+    background: rgb(254, 163, 1);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+}
+/* Nav Mobile */
+.navMobile{
+    
+    display: none;
+}
+
+/* Banner Styles */
+.banner {
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.banner-1{
+    max-width: 766px;
+    
+}
+.banner-2{
+    max-width: 570px;
+}
+.bannerTitle {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+
+.bannerDescription {
+    font-size: 1.25rem;
+    font-weight: 400;
+
+}
+
+.bannerClr1 {
+    color: #FEA301;
+}
+
+.bannerClr2 {
+    color: #01ACFD;
+}
+
+.bannerBtn {
+    border-radius: 12px;
+    border: none;
+    font-size: 1.25rem;
+    color: white;
+    background: rgb(17, 17, 17);
+    margin: 24px 0px;
+    padding: 5px 50px;
+}
+
+
+/* Responsive For Mobile Device */
+
+@media screen and (max-width:576px) {
+    header{
+        margin: 0px;
+    }
+   
+    }
+    .navSection{
+        display: none;
+    }
+    .navContent{
+        border-bottom:  0.5px solid rgb(254, 163, 1);
+    }
+    .navMobile{
+        display: flex;
+        
+        justify-content: space-between;
+        align-items: center;
+       
+    
+    }
+    .mobile{
+        padding: 10px 12px;
+    }
+    
+}
