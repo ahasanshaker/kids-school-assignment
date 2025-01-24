@@ -146,6 +146,7 @@ nav ul li {
 
 .curriculum{
     background-image: url(../assets/bg.png);
+    margin-top: 50px;
     
 }
 .curriculumTitle {
@@ -237,6 +238,7 @@ background: rgb(254, 163, 1);
     header {
         margin: 0px;
     }
+    
 
 
     .navSection {
@@ -287,5 +289,17 @@ background: rgb(254, 163, 1);
     .bannerDescription {
         margin-bottom: 10px;
     }
-
+    .curriculumTitle{
+        font-size: 26px;
+    }
+    
+    
+    .curriculumContainer{
+        flex-direction: column;
+        gap: 10px;
+        margin: 30px 30px;
+    }
+    .bannerArrow{
+        display: none;
+    }
 }
