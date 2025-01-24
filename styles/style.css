@@ -21,6 +21,18 @@
     font-size: 1.25rem;
     font-weight: 700;
 }
+.btn{
+    border-radius: 47.93px;
+    
+    border: none;
+    font-size: 1rem;
+    color: white;
+    padding: 15px 20px;
+    margin-top: -30px;
+    margin-left: 20px;
+
+
+}
 
 /* Header Styles */
 header {
@@ -144,11 +156,12 @@ nav ul li {
 
 /* Curriculum Styles */
 
-.curriculum{
+.curriculum {
     background-image: url(../assets/bg.png);
     margin-top: 50px;
-    
+
 }
+
 .curriculumTitle {
     text-align: center;
     font-size: 3rem;
@@ -159,9 +172,9 @@ nav ul li {
     justify-content: center;
     gap: 60px;
     margin: 80px auto;
-    
-    
-    
+
+
+
 }
 
 .curriculumBox {
@@ -177,60 +190,185 @@ nav ul li {
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
     padding: 40px 20px;
-    
-    
+
+
 }
 
 
-.cardTitle{
-    
+.cardTitle {
+
     padding: 20px 0px;
     font-size: 1.8rem;
 }
-.cardDescription{
+
+.cardDescription {
     font-size: 1.5rem;
-    font-weight: 500; 
-    
+    font-weight: 500;
+
 }
-.cardBtn{
+
+.cardBtn {
     font-size: 1rem;
     font-weight: 700;
     border: none;
     background-color: white;
     padding: 20px 0px;
 }
-.btnOne{
+
+.btnOne {
     color: #64C8FF;
 }
-.btnTwo{
+
+.btnTwo {
     color: #F0AA00;
 }
-.btnThree{
+
+.btnThree {
     color: #8700FF;
 }
-.bannerArrow{
-    
+
+.bannerArrow {
+
     gap: 10px;
     justify-content: center;
     align-items: center;
-    
 
 
-   
+
+
 }
-.arrowBtn{
+
+.arrowBtn {
     width: 60px;
     height: 60px;
     border-radius: 30px;
     border: none;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
 
 
-background: rgb(254, 163, 1);
+    background: rgb(254, 163, 1);
 }
-.arrowBtn i{
+
+.arrowBtn i {
     color: white;
 }
+
+/* Our Stories Section */
+.ourStories {
+
+    background: url(../assets/bg.png), linear-gradient(0.00deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    margin-bottom: 100px;
+}
+
+.storiesTitle {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.storiesContainer {
+    display: flex;
+    gap: 20px;
+    padding: 20px 60px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.containerLeftbtn {
+
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    border: none;
+    font-size: 1rem;
+    color: white;
+    padding: 15px 20px;
+    /* margin-top: -60px; */
+    margin-left: 20px;
+    /* margin-bottom: 30px; */
+    margin-top: -62px;
+    position: absolute;
+
+
+}
+
+.ourStories img {
+    width: 100%;
+
+}
+
+.containerLeft {
+    max-width: 640px;
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+
+}
+
+.leftContent {
+    padding: 30px 30px;
+}
+
+.ContentLeftTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 30px 0px;
+}
+
+.contentLeftDescription {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.containerLeftimg {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.containerRight {
+    max-width: 700px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+
+
+    gap: 20px;
+}
+.right2content{
+    border-radius: 16px;
+
+background: rgb(255, 255, 255);
+
+
+}
+.right2content img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.left2Description{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 40px;
+}
+.btn:nth-child(1) {
+    background-color: #95B226;
+}
+.btn:nth-child(2) {
+    background-color: #5D58F0;
+}
+.btn:nth-child(3) {
+    background-color: #95B226;
+}
+.btn:nth-child(4) {
+    background-color: #95B226;
+}
+.displayNone{
+    display: none;
+}
+    
 
 /* Responsive For Mobile Device */
 
@@ -238,7 +376,7 @@ background: rgb(254, 163, 1);
     header {
         margin: 0px;
     }
-    
+
 
 
     .navSection {
@@ -289,17 +427,38 @@ background: rgb(254, 163, 1);
     .bannerDescription {
         margin-bottom: 10px;
     }
-    .curriculumTitle{
+
+    .curriculumTitle {
         font-size: 26px;
     }
-    
-    
-    .curriculumContainer{
+
+
+    .curriculumContainer {
         flex-direction: column;
         gap: 10px;
         margin: 30px 30px;
     }
-    .bannerArrow{
+
+    .bannerArrow {
         display: none;
     }
+    .containerLeft{
+        display: none;
+    }
+    .ourStories{
+        margin-bottom: 20px;
+    }
+    .left2Description{
+        margin: 10px 5px;
+        font-size: 0.8rem;
+    }
+    .btn{
+        border-radius: 47.93px;
+        
+        border: none;
+        font-size: 0.8rem;
+        color: white;
+        padding: 10px 10px;
+        margin-top: -10px;
+        margin-left: 10px;
 }
