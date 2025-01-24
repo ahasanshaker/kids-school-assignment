@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
 }
 
@@ -34,7 +34,7 @@ nav {
     /* padding: 0px 20px; */
 
     gap: 10px;
-    
+
 
 }
 
@@ -85,9 +85,10 @@ nav ul li {
     color: white;
     border: none;
 }
+
 /* Nav Mobile */
-.navMobile{
-    
+.navMobile {
+
     display: none;
 }
 
@@ -97,13 +98,16 @@ nav ul li {
     align-items: center;
     gap: 50px;
 }
-.banner-1{
+
+.banner-1 {
     max-width: 766px;
-    
+
 }
-.banner-2{
+
+.banner-2 {
     max-width: 570px;
 }
+
 .bannerTitle {
     font-size: 3.5rem;
     font-weight: 700;
@@ -134,31 +138,154 @@ nav ul li {
     padding: 5px 50px;
 }
 
+.banner-2 img {
+    width: 100%;
+}
+
+/* Curriculum Styles */
+
+.curriculum{
+    background-image: url(../assets/bg.png);
+    
+}
+.curriculumTitle {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.curriculumContainer {
+    justify-content: center;
+    gap: 60px;
+    margin: 80px auto;
+    
+    
+    
+}
+
+.curriculumBox {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 380px;
+    max-height: 480px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255), rgba(255, 255, 255, 0) 40%), rgb(255, 255, 255);
+    padding: 40px 20px;
+    
+    
+}
+
+
+.cardTitle{
+    
+    padding: 20px 0px;
+    font-size: 1.8rem;
+}
+.cardDescription{
+    font-size: 1.5rem;
+    font-weight: 500; 
+    
+}
+.cardBtn{
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    background-color: white;
+    padding: 20px 0px;
+}
+.btnOne{
+    color: #64C8FF;
+}
+.btnTwo{
+    color: #F0AA00;
+}
+.btnThree{
+    color: #8700FF;
+}
+.bannerArrow{
+    
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+
+
+   
+}
+.arrowBtn{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom:20px ;
+
+
+background: rgb(254, 163, 1);
+}
+.arrowBtn i{
+    color: white;
+}
 
 /* Responsive For Mobile Device */
 
 @media screen and (max-width:576px) {
-    header{
+    header {
         margin: 0px;
     }
-   
-    }
-    .navSection{
+
+
+    .navSection {
         display: none;
     }
-    .navContent{
-        border-bottom:  0.5px solid rgb(254, 163, 1);
+
+    .navContent {
+        border-bottom: 0.5px solid rgb(254, 163, 1);
     }
-    .navMobile{
+
+    .navMobile {
         display: flex;
-        
+
         justify-content: space-between;
         align-items: center;
-       
-    
+
+
     }
-    .mobile{
+
+    .mobile {
         padding: 10px 12px;
     }
-    
+
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 20px;
+        gap: 0px;
+
+    }
+
+    .banner-1 {
+        order: 2;
+        text-align: center;
+
+    }
+
+    .bannerBtn {
+        margin: 0px auto;
+
+    }
+
+    .bannerTitle {
+        font-size: 2rem;
+    }
+
+    .bannerDescription {
+        margin-bottom: 10px;
+    }
+
 }
